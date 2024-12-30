@@ -1,0 +1,14 @@
+Field Name,Data Type,Description
+ride_id,Character,Unique identifier for each ride.
+rideable_type,Character,Type of bike used, e.g., electric, classic, or docked bike.
+started_at,POSIXct / POSIXt,Timestamp indicating when the ride started.
+ended_at,POSIXct / POSIXt,Timestamp indicating when the ride ended.
+start_station_name,Character,Name of the station where the ride started.
+start_station_id,Numeric,ID of the station where the ride started (may need conversion to character).
+end_station_name,Character,Name of the station where the ride ended.
+end_station_id,Numeric,ID of the station where the ride ended (may need conversion to character).
+start_lat,Numeric,Latitude of the starting location.
+start_lng,Numeric,Longitude of the starting location.
+end_lat,Numeric,Latitude of the ending location.
+end_lng,Numeric,Longitude of the ending location.
+member_casual,Character,Indicates the rider type: "member" (annual subscriber) or "casual" (non-member).
